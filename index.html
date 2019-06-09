@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta property="og:title" content="六角學院｜Hex School">
+  <meta property="og:description" content="從無到有學會網頁設計">
+  <meta property="og:description" content="website">
+  <meta property="og:url" content="#">
+  <meta property="og:image" content="./images/logo.jpg">
+
+  <link rel="icon" href="./images/hexschool.ico" type="image/x-icon" />
+  <title>六角學院｜Hex School</title>
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+  <link rel="stylesheet" href="./css/lightbox.css">
+  <link rel="stylesheet" href="./css/index.css">
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+  <script src="https://kit.fontawesome.com/55017d12e9.js"></script>
+  <script src="./js/lightbox.js"></script>
+  <script src="./js/index.js"></script>
+</head>
+<body>
+  <nav>
+    <div class="content">
+      <h1><a href="index.html">HexSchool</a></h1>
+      <ul>
+        <li class="active"><a href="#" class="home">首頁</a></li>
+        <li>
+            <a href="#" class="info">課程</a>
+            <div class="info_son son">
+              <div class="content">
+                <ul>
+                  <li><a href="#" class="html5">Html5 基礎教學</a></li>
+                  <li><a href="#" class="rwd">響應式網站設計</a></li>
+                  <li><a href="#" class="jquery">jQuery 實戰教學</a></li>
+                </ul>
+              </div>
+            </div>
+        </li>
+        <li>
+            <a href="#" class="qna">問答</a>
+            <div class="qna_son son">
+              <div class="content">
+                <ul>
+                  <li><a href="#" class="simple">常見問題</a></li>
+                  <li><a href="#" class="pay">怎麼付款</a></li>
+                  <li><a href="#" class="refund">我想退款</a></li>
+                </ul>
+              </div>
+            </div>
+        </li>
+      </ul>
+      <button class="control"><i class="fas fa-bars"></i></i></button>
+    </div>
+  </nav>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide banner1">
+        <div class="content">
+          <p>六角學院</p>
+          <p>讓您奠定良好的前端基礎</p>
+        </div>
+      </div>
+      <div class="swiper-slide banner2">
+        <div class="content">
+          <p>歡迎來到<span>六角學院</span></p>
+          <p>帶您一起攻略前端設計</p>
+          <a href="#">馬上去註冊　<i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="swiper-slide banner3">
+        <div class="content">
+          <p>HTML、CSS開發網站</p>
+          <small>從無到有學會網頁設計</small>
+          <a href="#">現在上課去　<i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="swiper-slide banner4">
+        <div class="content">
+          <p>遇到問題了嗎?</p>
+          <small>別擔心，你想找的答案都在這裡!</small>
+          <div class="serch">
+            <input type="text">
+            <a href="#"><i class="fas fa-search"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page" id="home">
+    <div class="course question">
+      <div class="content">
+        <h2>精選課程</h2>
+        <p>幫助你拿到前端工程師的門票</p>
+        <ul>
+          <li>
+            <a href="./images/icon/HTML5.png" data-lightbox="HTML5" data-title="Html 5 基礎教學" class="img">
+              <img src="./images/icon/HTML5.png" alt="HTML5" draggable="false">
+            </a>
+            <h3><a href="#" class="html5">Html 5 基礎教學</a></h3>
+            <p>主流前端網站設計的基礎，透過實際的範例，瞭解正確的網站開發流程。</p>
+            <a href="#" class="link html5">詳細資訊</a>
+          </li>
+          <li>
+            <a href="./images/icon/RWD.png" data-lightbox="RWD" data-title="響應式網站設計" class="img">
+              <img src="./images/icon/RWD.png" alt="RWD" draggable="false">
+            </a>
+            <h3><a href="#" class="rwd">響應式網站設計</a></h3>
+            <p>六角學院提供業界響應式開發方法，讓學生瞭解完善的行動版開發觀念。</p>
+            <a href="#" class="link rwd">詳細資訊</a>
+          </li>
+          <li>
+            <a href="./images/icon/jquery.png" data-lightbox="jquery" data-title="jQuery 實戰教學" class="img">
+              <img src="./images/icon/jquery.png" alt="jquery" draggable="false">
+            </a>
+            <h3><a href="#" class="jquery">jQuery 實戰教學</a></h3>
+            <p>分為四大主題：變數的使用、操作DOM、基本數學運算和套件運用。</p>
+            <a href="#" class="link jquery">詳細資訊</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="difference question">
+      <div class="content">
+        <h2>課程比較</h2>
+        <p>六角學院課程與其他課程的差異</p>
+        <table>
+          <thead>
+            <tr>
+              <th>項目</th>
+              <th class="mark">六角學院</th>
+              <th>其他線上課程</th>
+              <th>實體課程</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>費用</th>
+              <td class="mark">較低</td>
+              <td class="mark">較低</td>
+              <td>較高</td>
+            </tr>
+            <tr>
+              <th>學習效果</th>
+              <td>一般</td>
+              <td>較低</td>
+              <td class="mark">很好</td>
+            </tr>
+            <tr>
+              <th>Code review</th>
+              <td class="mark">有</td>
+              <td>無</td>
+              <td>不一定</td>
+            </tr>
+            <tr>
+              <th>課程更新速度</th>
+              <td class="mark">普通</td>
+              <td class="mark">普通</td>
+              <td>較慢</td>
+            </tr>
+            <tr>
+              <th>多次複習</th>
+              <td class="mark">可以</td>
+              <td class="mark">可以</td>
+              <td>不可</td>
+            </tr>
+            <tr>
+              <th>字幕</th>
+              <td class="mark">有</td>
+              <td>不一定</td>
+              <td>沒有</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="form">
+      <div class="content">
+        <p>你就是六角的下一個學生！<br>快留下資料讓我們認識你吧</p>
+        <div class="in-group">
+          <input type="text" placeholder="你的名字是？" required>
+          <input type="email" placeholder="example@mail.com.tw" required>
+          <button>送&emsp; 出</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page" id="info">
+    <div class="teacher">
+      <div class="content">
+        <img src="./images/teacher.png" alt="">
+        <h3><span>廖洧杰</span><br>老師</h3>
+        <ul>
+          <li>高雄前端社群發起人</li>
+          <li>中華電信前端講師</li>
+          <li>高雄大學前端講師</li>
+          <li>十年實務經驗</li>
+          <li>授課時數超過一千小時</li>
+        </ul>
+      </div>
+    </div>
+    <div class="info_item" id="html5">
+      <div class="content">
+        <h2>使用 HTML、CSS 開發一個網站</h2>
+        <h3>這堂課程有什麼特別的？</h3>
+        <p>六角課程的四大優點</p>
+        <ol>
+          <li>有能力排出具專業、語意化、美觀的網頁設計</li>
+          <li>課程結束後，會提供給你一個完整的網頁設計稿，當你實作出網頁後，就可以轉交六角學院的講師們進行程式碼審視，以確保你吸收的網頁排版觀念是正確的。</li>
+          <li>了解設計網頁的脈絡，你隨時可以在社群裡發問問題，我們永遠都會在這裡！</li>
+          <li>獲得持續更新的講義教材，終身複習不會脫離趨勢的現代化線上課程。</li>
+        </ol>
+        <h3>課程大綱</h3>
+        <p>最扎實的學習內容編排</p>
+        <ul>
+          <li class="gray">網頁編輯器、HTML基礎教學</li>
+          <li>CSS常用語法</li>
+          <li class="gray">使用CSS變更HTML標籤特性</li>
+          <li>網頁排版技巧Part I</li>
+          <li class="gray">網頁排版技巧Part II</li>
+          <li>切圖技巧</li>
+          <li class="gray">表格與表單設計技巧</li>
+          <li>CSS3技巧</li>
+          <li class="gray">最後，讓你的網頁變得更專業</li>
+          <li>課程作業</li>
+        </ul>
+      </div>
+    </div>
+    <div class="info_item" id="rwd">
+      <div class="content">
+        <h2>一變應萬變的響應式網頁設計</h2>
+        <h3>這堂課程有什麼特別的？</h3>
+        <p>六角課程的三大優點</p>
+        <ol>
+          <li>掌握響應式網頁設計細節</li>
+          <li>了解如何跨部門協作響應式網頁設計</li>
+          <li>懂得如何以 UI / UX 角度設計好的響應式網頁設計</li>
+        </ol>
+        <h3>課程大綱</h3>
+        <p>最扎實的學習內容編排</p>
+        <ul>
+          <li class="gray">基本環境介紹</li>
+          <li>常見版型佈局設定</li>
+          <li class="gray">以 UI 設計角度切入響應式設計該注意的細節</li>
+          <li>斷點規劃</li>
+          <li class="gray">響應式表格與表單設計</li>
+          <li>響應式圖形設計</li>
+          <li class="gray">常見響應式設計選單</li>
+          <li>開始實作前的注意事項</li>
+          <li class="gray">最後，讓你的響應式網頁設計更專業</li>
+          <li>課程作業</li>
+        </ul>
+      </div>
+    </div>
+    <div class="info_item" id="jquery">
+      <div class="content">
+          <h2>使用 jQuery 打造互動性網頁動畫效果</h2>
+          <h3>這堂課程有什麼特別的？</h3>
+          <p>六角課程的四大優點</p>
+          <ol>
+            <li>能夠掌握如何在網頁上設計互動性網頁動畫效果</li>
+            <li>有辦法輕易整合別人寫好的第三方動畫插件，並套用在自己的網頁上</li>
+            <li>有能力評估別人的網站究竟是用了哪些插件來設計網頁動畫效果</li>
+            <li>當 jQuery 程式碼變多時，也能夠有條理地進行維護整理</li>
+          </ol>
+          <h3>課程大綱</h3>
+          <p>最扎實的學習內容編排</p>
+          <ul>
+            <li class="gray">jQuery 入門</li>
+            <li>選擇器與事件：開始讓你的網頁具有互動性吧！</li>
+            <li class="gray">看看還有哪些動畫效果可以使用</li>
+            <li>教你如何搭配 CSS + jQuery 各式各樣的動畫效果</li>
+            <li class="gray">教你如何操控網頁元素</li>
+            <li>jQuery 常用小技巧</li>
+            <li class="gray">第三方Plugin</li>
+            <li>開始喜歡 jQuery了嗎？教你如何更精進！</li>
+            <li class="gray">最後，你還可以往哪些方向去精進</li>
+            <li>課程作業</li>
+          </ul>
+        </div>
+    </div>
+    <div class="form">
+      <div class="content">
+        <p>心動不如馬上行動！<br>現在就成為我們的學生吧</p>
+        <div class="in-group">
+          <button>馬上去註冊　<i class="fas fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page" id="qna">
+    <div class="question" id="simple">
+      <div class="content">
+        <h2>常見問題＃</h2>
+        <p>你想問的說不定也在這裡</p>
+        <div class="problem">
+          <h5>Q：為什麼你們要用 Udemy 放你們的影音課程，他有什麼好處嗎？</h5>
+          <p>A：他除了可上傳影音課程外，同時也能上傳我們設計出來的範例程式碼、設計單選題目，並能在 IOS、Andorid 上面學習，同時也能追蹤每位學生的學習機制，讓我們放心挑選 Udemy 作為我們的教學平台。</p>
+        </div>
+        <div class="problem">
+          <h5>Q：影片課程有時效性嗎？</h5>
+          <p>A：完全沒有，此課程提供終身複習服務，你隨時可聽到我們即時更新的影音課程內容。</p>
+        </div>
+        <div class="problem">
+          <h5>Q：我很擔心學完後還是學不會網頁設計，有什麼辦法嗎？</h5>
+          <p>A：課程結束後我們會提供給你網頁設計稿，做完後 mail 給我們，service@hexschool.com，我們會替你進行程式碼檢視，以確保你的觀念吸收正確。</p>
+        </div>
+      </div>
+    </div>
+    <div class="question" id="pay">
+      <div class="content">
+        <h2>怎麼付款＃</h2>
+        <p>付款方式保證最多元</p>
+        <div class="problem">
+          <h5>Q：請問可以分期付款嗎？</h5>
+          <p>A：當然沒問題，在本平台購買我們最高提供 6 期分期。</p>
+          <ol>
+            <li>選擇產品後</li>
+            <li>在進入金流平台付款時可選擇信用卡分期付款</li>
+            <li>選擇期數，旁邊會附註每期應付款項</li>
+          </ol>
+        </div>
+        <div class="problem">
+          <h5>Q：我沒有信用卡，有沒有其他匯款方案？</h5>
+          <p>A：每個課程現在都提供了其它付款方式，在課程連結旁就可以找到這個其他付款方式，而且我們是採用台灣第三方支付，安全又可靠。</p>
+        </div>
+        <div class="problem">
+          <h5>Q：採用其它付款流程，但還沒有收到課程怎麼辦？</h5>
+          <p>A：課程會在 48 小時內寄出，如果沒有收到可以透過右下角的客服，或直接 mail 至我們的信箱 <a href="mailto:service@hexschool.com">service@hexschool.com</a> ，我們會盡快處理以保障您的權益。</p>
+        </div>
+      </div>
+    </div>
+    <div class="question" id="refund">
+      <div class="content">
+        <h2>我想退款＃</h2>
+        <p>期待你再次成為我們的學生</p>
+        <div class="problem">
+          <h5>Q：如果怕線上影音課程吸收不好，可以要求退費嗎？</h5>
+          <p>A：沒問題！Udemy 在 30 天內都可申請退款！</p>
+        </div>
+        <div class="problem">
+          <h5>Q：Udemy 如何退款？</h5>
+          <p>A：透過 Udemy 的課程頁面的 選項 下即可使用退款功能。</p>
+        </div>
+        <div class="problem">
+          <h5>Q：其它支付流程如何退款？</h5>
+          <p>A：請發信到 service@hexschool.com 並詳著以下內容：</p>
+          <ul>
+            <li>退款帳戶</li>
+            <li>Udemy 用戶名稱</li>
+            <li>購買時間</li>
+            <li>退款原因</li>
+          </ul>
+          <p>接下來，我們會有專人協助退款。退款後請注意：</p>
+          <ul>
+            <li>退款會酌收第三方支付手續費，信用卡一次付清 2.8%、分三期 3%、分六期 3.5%、分 12 期 7%、ATM為 1%，超商為 28 元。</li>
+            <li>退款後亦不能參與任何線上討論以及每週的線上問答。</li>
+            <li>退款後的學員再下次購買時，我們會先提供測試帳號 7 天再次鑑賞，確認該學員有需上這門課程，才能購買該次課程。</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="form">
+      <div class="content">
+        <p>找不到你的問題嗎？<br>直接寄信給我們解決吧！</p>
+        <div class="in-group">
+          <input type="text" placeholder="你的名字是？" required>
+          <input type="email" placeholder="example@mail.com.tw" required>
+          <textarea cols="10" rows="3" placeholder="你遇到什麼困難呢？" required></textarea>
+          <button>送&emsp;出</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="content">
+      <p>© 2018 hexschool</p>
+      <ul>
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#" class="top"><i class="fas fa-angle-up"></i></a></li>
+      </ul>
+    </div>
+    <div class="top" id="top"><i class="fas fa-angle-up"></i></div>
+  </div>
+
+
+
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      loop: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+    });
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })
+  </script>
+</body>
+</html>
